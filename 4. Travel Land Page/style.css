@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins:wght@100;300;400;500;600&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('./home.jpg');
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    position: relative;
+}
+
+nav .menu a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid #6a6767;
+    transition: 0.4s linear;
+}
+
+nav .menu a:hover::before{
+    width: 90%;
+}
+
+nav .register a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #383838;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav .register a:hover{
+    background-color: transparent;
+    border: 1px solid #6a6767;
+}
+
+.h-tax{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.h-tax span{
+    letter-spacing: 5px;
+}
+
+.h-tax h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.h-tax a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    /* background-color: #383838; */
+    border-radius: 20px;
+    border: 1px solid #383838;
+    transition: all 0.3s ease;
+}
+
+.h-tax a:hover{
+    background-color: transparent;
+    border: 1px solid #6a6767;
+}

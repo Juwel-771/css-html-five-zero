@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins:wght@100;300;400;500;600&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url('./FISH.jpg');
+    /* background-image: url('./bg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    top: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+header .navigation a{
+    margin-right:10px;
+    padding: 2px 15px;
+    color: #000;
+    /* background-color: #fff; */
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+header .navigation a:hover{
+    background-color: #fff;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content .info h2{
+    margin-bottom: 30px;
+    color: #226A80;
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
+.content .info span{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.content .info p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.content .btn-info{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #226A80;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.content .btn-info:hover{
+    background-color: transparent;
+    border-bottom: 1px solid #226A80;
+    border-top: 1px solid #fff;
+}

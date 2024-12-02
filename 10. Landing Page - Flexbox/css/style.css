@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: #edf2f4;
+    border-bottom: 4px solid gray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin-left: 10px;
+}
+
+nav ul li a{
+    color: #0d1b2a;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-btn button{
+    margin-left: 50px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #faa307;
+    color: #edf2f4;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+.sign-up-btn{
+    color: #edf2f4;
+    background-color: #faa307;
+    /* padding: 10px 20px; */
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color: #faa307;
+    transition: all 0.5s;
+}
+
+li a:hover::after{
+    width: 100%;
+}
+
+.logo-image .logo-img{
+    width: 80px;
+    height: 80px;
+}
+
+main{
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-left{
+    width: 50%;
+    /* padding: 10% 3%; */
+}
+
+.content-left h1{
+    color: #0d1b2a;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+.content-left h2{
+    color: #faa307;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.content-left p{
+    color: #0d1b2a;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.join-btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.join-btn button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #faa307;
+    color: #edf2f4;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 50px;
+}

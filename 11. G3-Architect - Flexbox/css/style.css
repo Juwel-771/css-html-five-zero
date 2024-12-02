@@ -1,0 +1,260 @@
+/* shared style */
+
+*{ 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn{
+    padding: 20px 25px;
+    color: #fff;
+    background-color: #ff900e;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0px;
+    cursor: pointer;
+}
+
+header{
+    background-color:  rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner section style */
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.benner-details{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* main section style */
+
+/* team section style */
+
+main{
+    max-width: 1440px;
+    /* padding: 50px 240px; */
+    margin: 0 auto;
+}
+
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.feature-section{
+
+}
+
+.team-container-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-gap: 1.5rem;
+}
+
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.team-title{
+    color: #727272;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.teams-title-style-one{
+    color: #131313;
+}
+
+.teams-title-style-two{
+    color: #ff900e;
+}
+
+.team-details{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+/* feature section style */
+.features{
+    display: flex;
+}
+
+/* fact section style */
+
+.fact-title{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.fact-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.fact-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    text-align: center;
+    padding: 50px;
+}
+
+.card-stats{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.card-title{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+/* sponsor section style */
+.sponsor-section{
+    text-align: center;
+}
+
+.sponsor-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.sponsor-details{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.sponsor-image{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+/* responsive section */
+
+/* Mobile devices */
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    }
+
+    nav, 
+    .team-container,
+    .fact-card-container,
+    .sponsor-image
+    {
+        flex-direction: column;
+    }
+
+    .team-container-img{
+        grid-template-columns: 1fr;
+    }
+
+    .team-content,
+    .fact-card-container
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card,
+    .sponsor-image
+    {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* medium or tablet devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+
+    nav, 
+    .team-container,
+    .sponsor-image
+    {
+        flex-direction: column;
+    }
+
+    .fact-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* .card{
+        margin: 10px;
+    } */
+}

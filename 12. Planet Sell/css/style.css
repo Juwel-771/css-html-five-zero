@@ -1,0 +1,300 @@
+.kosugi-maru-regular {
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+  .philosopher-regular {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .philosopher-regular-italic {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .philosopher-bold {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .philosopher-bold-italic {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+  /* .colors{
+    #90D26D
+    #31363F
+  } */
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img{
+    margin-left: 150px;
+    width: 100px;
+  }
+
+  .nav-menu{
+    
+  }
+  
+  ul{
+    margin-right: 150px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+  }
+
+  ul li{
+    list-style: none;
+    margin: 10px;
+  }
+
+  ul li a{
+    color: #31363F;
+    text-decoration: none;  
+  }
+
+  .active{
+    color: #90D26D;
+  }
+  
+
+  .main-image{
+    /* width: 100vw; */
+    height: 90vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.0),rgba(0,0,0,0.8)),url("../images/image1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .main-content{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+  }
+
+  .main-image-title{
+    margin-bottom: 0px;
+    color: #87A922;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .main-image-moto{
+    margin-top: 0px;
+    color: #FEFDED;
+    font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .main-single-text{
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .main-button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #FEFDED;
+    background-color: #A1C643;
+    cursor: pointer;
+  }
+
+
+  /* mission section style */
+
+  .mission-section,
+  .work-section{
+    margin: 80px 0px;
+  } 
+
+  .mission-section-heading,
+  .work-section-heading{
+    margin: 80px 0px;
+
+  }
+  .mission-title,
+  .work-title{
+    color: #31363F;
+    font-size: 2.8rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .mission-number{
+    color: #87A922;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .mission-heading{
+    width: 1170px;
+    height:393px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .mission-image img{
+   
+  }
+
+  .mission-content{
+    background-color: #A1C643;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+  }
+
+  .mission-content-box{
+    margin-top: 80px;
+  }
+
+  .mission-content-title{
+    color: #FEFDED;
+    font-size: 3rem; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    margin-bottom: 40px;
+  }
+
+
+  .mission-text{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .mission-content-details{
+    color: #FEFDED;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    margin-bottom: 30px;
+  }
+
+  .mission-content-button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #90D26D;
+    cursor: pointer;
+  }
+
+  .mission-content-button:hover{
+    background: linear-gradient(168deg, rgba(71,121,9,0.6527097899706757) 35%, rgba(0,255,107,0.7339422829678747) 100%);
+  }
+
+  /* style of work section */
+
+  .work-title{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .work-tree-images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .tree-image{
+    text-align: center;
+  }
+
+  .tree-image img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .tree-image h1{
+    text-transform: capitalize;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .tree-image img:hover{
+    background-color: #31363F;
+    opacity: 0.8;
+  }

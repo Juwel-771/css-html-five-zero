@@ -1,0 +1,276 @@
+/* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+/* all over style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* all primary elements */
+.main-color{
+    color: #FD6E0A;
+}
+
+.primary-btn{
+    padding: 18px 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: azure;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Navigation bar style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    color: #474747;
+    text-decoration: none;
+}
+
+/* header style */
+.header{
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+}
+
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-profile{
+    width: 500px;
+}
+
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 5px 0px 20px 0;
+}
+
+.banner-details{
+    width: 585px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.primary-btn{
+    margin-right: 30px;
+}
+
+/* Main section styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+/* about sections */
+.about{         
+    padding: 130px;
+    margin: 130px 0px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.info-details{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#what-i-do{
+    padding: 30px 150px;
+}
+
+/* skill section style */
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    margin: 50px 20px;
+    padding: 30px;
+}
+
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* resume-column */
+
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-institution-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.resume-institution-year{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.resume-institution-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-center{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 200px;
+}
+
+.footer-tittle{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-column{
+    width: 50%;
+}
+
+.social-contact{
+    margin-top: 30px;
+}
+
+.social-contact a{
+    margin-right: 25px;
+}
+
+.contact input, textarea{
+    color: #757575;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+}
+
+.contact input[type="text"],.contact input[type="email"], textarea{
+    width: 100%;
+}
+
+.dark-line{
+    width: 100%;
+    background-color: #FD6E0A;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
